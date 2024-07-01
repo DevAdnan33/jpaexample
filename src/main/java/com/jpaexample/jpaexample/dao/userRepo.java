@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.jpaexample.jpaexample.entities.User;
 
-public interface userRepo extends CrudRepository<User,Integer> {
-    
+public interface UserRepo extends CrudRepository<User, Integer> {
+
 }
